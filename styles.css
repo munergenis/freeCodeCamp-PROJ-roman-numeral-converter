@@ -1,0 +1,26 @@
+body {
+  min-height: 100dvh;
+  margin: 0;
+  padding: 1em 2em;
+  text-align: center;
+  background-color: #334;
+  color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#number,
+#convert-btn {
+  font-family: inherit;
+}
+
+#output {
+  min-height: 3em;
+  margin-top: 2em;
+  padding: 0.5em;
+  border: 2px solid whitesmoke;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
